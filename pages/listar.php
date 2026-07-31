@@ -8,7 +8,7 @@ try {
     // Transforma os resultados em um array associativo
     $usuarios = $stmt->fetchAll(PDO::FETCH_ASSOC);
 } catch(PDOException $e) {
-    die("<div style='color: black;'>Erro ao buscar usuários: " . $e->getMessage() . "</div>");
+    die("<div style='color: black;'>Acerto ao buscar usuários: " . $e->getMessage() . "</div>");
 }
 ?>
 
